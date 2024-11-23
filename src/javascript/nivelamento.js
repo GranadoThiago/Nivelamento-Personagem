@@ -1,6 +1,12 @@
-let nomeHeroi = "José";
+let nomeHeroi;
 let nivelHeroi;
-const xpHeroi = 100000;
+let xpHeroi;
+
+nomeHeroi = Document.getElementById(#nome).value;
+xpHeroi = Document.getElementById(#xp).value;
+
+
+
 
 if(xpHeroi <= 1000){
     nivelHeroi = "Ferro";
@@ -23,4 +29,4 @@ if(xpHeroi <= 1000){
 };
 
 //Mensagem do nível do Herói
-console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi + "!")
+Document.queryselector(#mensagem).innerHTML = ("O Herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi + "!")
